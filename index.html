@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Video Player</title>
+</head>
+<body>
+    <section class="wrapper">
+        <section class="Player">
+            <video id="video" class="video" poster="./images/poster.jpg"  muted src="./video/lofi.mp4" width="400px"></video>
+            <section class="player-overlay">
+                <section class="player-actions">
+                    <button class="button" id="Retrasar" aria-label="retrasar 10seg" title="-10seg"></button>
+                    <button class="button" id="Play" aria-label="play" title="Play"></button>
+                    <button class="button" hidden id="Pause" aria-label="pausar" title="Pause"></button>
+                    <button class="button" id="Avanzar" aria-label="avanzar 10seg" title="+10seg"></button><br>
+                </section>
+                 <section class="player-progress">
+                     <input id="progress" type="range" min="0" value="0" step=".1">
+                 </section>
+            </section>
+        </section>
+    </section>
+    
+    
+</body>
+<script src="./index.js"></script>
+</html>
