@@ -25,11 +25,11 @@ body{
 }
 
 #Avanzar{
-    background-image: url(/images/+10.svg);
+    background-image: url(./images/+10.svg);
 }
 
 #Retrasar{
-    background-image: url(/images/-10.svg);
+    background-image: url(./images/-10.svg);
 }
 
 .wrapper{
